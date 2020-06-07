@@ -10,3 +10,19 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: red;
+}
+
+.navbar-item {
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
