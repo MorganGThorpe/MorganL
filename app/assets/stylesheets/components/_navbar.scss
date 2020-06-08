@@ -15,14 +15,36 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 75px;
   background: red;
 }
 
-.navbar-item {
+.navbar {
+  justify-content: space-around;
+  margin-top: 10px;
+  align-items: center;
+}
+.navbar-item-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+}
+.navbar-bar{
+  border-right:  1px solid #CCDBDC;
+  width: 1px;
+  height: 80%;
+}
+.nav-item {
   h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
-    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #CCDBDC;
   }
+
 }
