@@ -1,33 +1,24 @@
 <br>
 
-  <div class="flex-container">
-    <div class= "big-box">
-      <h4>This website is currently in construction. It is updated every day. Thank you for your interest </h4>
-      <br>
-      <br>
-      <table>
-        <tr>
-          <th>Project name</th>
-          <th>Description</th>
-          <th>Link</th>
-        </tr>
-        <tr>
-          <td>Consulting-prep (formerly Ace-Interviews.io)</td>
-          <td>This project aims at providing a place for </td>
-          <td><a href="https://consulting-prep.herokuapp.com/">consulting-prep</a></td>
-        </tr>
-        <tr>
-          <td>Tools-R-us</td>
-          <td>An Airbnb mock-up that focuses on enabling people to lend tools to each other</td>
-          <td><a href="https://tools-r-us.herokuapp.com/">Tools-R-us</a></td>
-        </tr>
-        <tr>
-          <td>The Big Try Hard</td>
-          <td>A blogg aimed at sharing my adventure cycling across the United States on a bicycle</td>
-          <td><a href="http://www.thebigtryhard.com/?zx=d7a590eaa6a27f75">The Big Try Hard</a> </td>
-        </tr>
-      </table>
-
-    </div>
-
+<div class="card-product">
+  <div class="product-image">
+    <%= image_tag("logo_ace_bg.png", alt: "logo Ace Consulting") %>
   </div>
+  <div class="product-desc">
+    <h2>Consulting-prep</h2>
+    <p>Formerly Ace-interviews.io, this was my team's final project at Le Wagon. The website aims at provinding students who are looking to get into consulting a place to practice interviews with each others and gather and store feedback.</p>
+  </div>
+</div>
+
+<div class="card-product">
+  <div class="product-image">
+    <%= image_tag("T'us.png", alt: "Tools-R-Us logo") %>
+  </div>
+  <div class="product-desc">
+    <h2>Tools-R-Us</h2>
+    <p>An Airbnb mock-up that focuses on enabling people to lend tools to each other. We built this we my team at Le Wagon.</p>
+  </div>
+</div>
+
+
+  <h4>This website is currently in construction. It is updated every day. Thank you for your interest </h4>

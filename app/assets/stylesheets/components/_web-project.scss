@@ -1,0 +1,40 @@
+.card-product {
+  display: flex;
+  border-radius: 5px;
+  color: white;
+  height: 200px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 25px auto;
+  box-shadow: 2px 2px 5px lightgrey;
+  max-width: 80%;
+  background: linear-gradient(-45deg, #133937, #73A3BF, #16387A);
+  background-size: 1000% 1000%;
+  animation: gradient 50s ease infinite;
+  img {
+    background: white;
+    padding: 40px;
+  }
+}
+
+.product-image {
+
+}
+.card-product img {
+  height: 200px;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 20px;
+}
+.product-desc {
+  margin-left: 25px;
+}
+.product-desc h2 {
+  text-align: left;
+  margin-bottom: 2px
+}
+.product-desc p{
+  text-align: left;
+  margin-top: 5px
+}
+
