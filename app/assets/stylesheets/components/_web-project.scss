@@ -30,13 +30,19 @@
 }
 .product-desc {
   margin-left: 25px;
+  margin-right: 45px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .product-desc h2 {
   text-align: left;
-  margin-bottom: 2px
+  margin-bottom: 6px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .product-desc p{
-  text-align: left;
-  margin-top: 5px
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 }
 
