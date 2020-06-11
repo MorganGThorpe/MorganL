@@ -1,3 +1,22 @@
+.card-product-alternate {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(-45deg, #EDF4ED, #F8FBF8, #F2F7F8);
+  background-size: 1000% 1000%;
+  animation: gradient 50s ease infinite;
+  height:auto;
+  max-width: 450px;
+  align-items: center;
+  margin: 50px auto;
+  box-shadow: 0 50px 36px -20px rgba(0,0,0,0.5);
+  transition: box-shadow 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+}
+
+.card-product-alternate:hover{
+  box-shadow: 0 50px 36px -20px rgba(0,0,0,0.8);
+  border-radius: 0px 50px 0px 50px;
+}
+
 .card-product {
   display: flex;
   border-radius: 5px;
@@ -19,13 +38,18 @@
 }
 
 .product-image {
-
+  img {
+  height: 200px;
+  max-width: 250px;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-top: 40px;
+}
 }
 .card-product img {
   height: 200px;
   max-width: 250px;
   object-fit: contain;
-  border-radius: 5px 0px 0px 5px;
   margin-right: 20px;
 }
 .product-desc {
@@ -34,15 +58,36 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 .product-desc h2 {
-  text-align: left;
-  margin-bottom: 6px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
   font-family: 'Josefin Sans', sans-serif;
 }
 .product-desc p{
   text-align: justify;
   text-justify: inter-word;
-  margin-top: 5px;
+  margin: 25px 25px 100px 25px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+}
+
+.disclaimer {
+  display: flex;
+  background: lightgrey;
+  color: darkgrey;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  height:auto;
+  max-width: 450px;
+  align-items: center;
+  margin: 50px auto;
+  box-shadow: 0 50px 36px -20px rgba(0,0,0,0.5);
+  transition: color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+.disclaimer:hover {
+  color: firebrick;
+  border-radius: 20px;
 }
 

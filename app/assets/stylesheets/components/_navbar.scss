@@ -24,7 +24,10 @@
   margin-top: 10px;
   align-items: center;
 }
+
 .navbar-item-bar {
+  position: fixed;
+  top: 20px;
   display: flex;
   justify-content: space-around;
   width: 80%;
