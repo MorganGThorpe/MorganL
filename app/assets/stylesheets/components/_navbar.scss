@@ -24,6 +24,15 @@
   margin-top: 10px;
   margin-bottom: 120px;
   align-items: center;
+    a {
+      color: inherit;
+      text-decoration: none;
+      text-shadow: 4px 4px 4px #000000;
+    }
+    a:hover{
+      color: hotpink;
+      text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    }
 }
 
 .navbar-item-bar {
@@ -42,13 +51,10 @@
   height: 80%;
 }
 .nav-item {
-  h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 18 px;
     text-transform: uppercase;
     height: 30px;
     line-height: 30px;
     color: #CCDBDC;
-  }
-
 }
