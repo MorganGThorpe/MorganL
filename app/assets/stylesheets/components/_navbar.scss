@@ -28,6 +28,9 @@
   justify-content: space-around;
   margin-top: 0px;
   margin-bottom: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
   background: linear-gradient(-15deg, #101010, #373A46);
   background-size: 100% 100%;
   height: 100px;
@@ -65,4 +68,13 @@
     height: 30px;
     line-height: 30px;
     color: #CCDBDC;
+}
+
+.ghost_nav {
+  margin-top: 0px;
+  margin-bottom: 120px;
+  width: 100%;
+  position: relative;
+  background:rgba(100 , 200 , 50 , 0.5);
+  height: 100px;
 }
