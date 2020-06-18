@@ -42,14 +42,17 @@ html {
   background: black;
   text-align: center;
   color: white;
+
   border: 1px solid white;
   height: 50px;
   line-height: 50px;
   border-radius: 25px;
-  a{
+  a {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    text-decoration: none;
+    color: white;
   }
 }
 
@@ -64,5 +67,27 @@ html {
   height: 200px;
 }
 .origin {
-  height: 100vh;
+  height: 80vh;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  h5 {
+    font-size:24px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+}
+#how_i_roll {
+  text-align: center;
+}
+
+.work {
+
 }
