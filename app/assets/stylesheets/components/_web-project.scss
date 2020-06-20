@@ -5,7 +5,7 @@
   background-size: 1000% 1000%;
   animation: gradient 50s ease infinite;
   height:auto;
-  max-width: 450px;
+  max-width: 750px;
   align-items: center;
   margin: 50px auto;
   box-shadow: 0 50px 36px -20px rgba(0,0,0,0.5);
@@ -39,8 +39,8 @@
 
 .product-image {
   img {
-  height: 200px;
-  max-width: 250px;
+  height: 300px;
+  max-width: 550px;
   object-fit: contain;
   margin-right: 20px;
   margin-top: 40px;
@@ -71,23 +71,13 @@
   font-weight: 300;
 }
 
-.disclaimer {
-  display: flex;
-  background: lightgrey;
-  color: darkgrey;
-  text-align: center;
-  padding: 20px;
-  font-size: 16px;
-  height:auto;
-  max-width: 450px;
-  align-items: center;
-  margin: 0px auto;
-  box-shadow: 0 50px 36px -20px rgba(0,0,0,0.5);
-  transition: color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+#ace-web {
+  background: "AceWeb.png";
+  width: auto;
+  height: 200px;
 }
 
-.disclaimer:hover {
-  color: firebrick;
-  border-radius: 20px;
+.background-web {
+  background: #F4DCCB;
+  height: calc(200vh + 400px)
 }
-
