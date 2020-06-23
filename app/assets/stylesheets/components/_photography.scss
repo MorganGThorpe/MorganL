@@ -9,9 +9,17 @@
   border-left-color:#eed;
   border-right-color:#eed;
   border-top-color:#ccb;
-  height:450px;
+  max-height:450px;
+  height: auto;
+  align-self: center;
 }
 
+.photo-line {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+
+}
 .frame {
   background-color:#131316;
   border:solid 5vmin #eee;
@@ -24,7 +32,7 @@
   box-sizing:border-box;
   display:inline-block;
   margin:10vh 10vw;
-  height:80vh;
+  height:76vh;
   padding:5vmin;
   position:relative;
   text-align:center;
