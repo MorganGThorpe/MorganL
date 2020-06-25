@@ -1,0 +1,89 @@
+.education-background {
+  background-image: image-url("BOOKS.jpg");
+  height: calc(200vh + 400px)
+}
+.education-white-screen {
+  background: rgba(250,250,255, 0.25);
+  height:100%;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  max-width: 850px;
+  align-items: center;
+  margin: 50px auto;
+    h1 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 24px;
+    }
+}
+.education-category {
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+.education-card {
+  max-width: 750px;
+  background: white;
+  margin: 20px 0px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+    *{
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+    }
+}
+
+.education-item {
+  background: white;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 15px 15px 15px 15px
+}
+
+.education-logo {
+  background: white;
+  width: 200px;
+  border-radius: 15px 0px 0px 15px;
+  img {
+    width:100px;
+    height: auto;
+    margin: 25px 46px;
+    vertical-align: baseline;
+  }
+}
+
+.education-desc {
+  margin-left:10px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: white;
+  margin-bottom:auto;
+}
+
+.education-title {
+  background: white;
+  margin-top: 10px;
+    h2 {
+      font-size: 24px;
+    }
+}
+
+.education-content {
+  background: white;
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 40px;
+    h3 {
+      font-size: 18px;
+      font-style: italic;
+    }
+}
+
