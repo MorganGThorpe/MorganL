@@ -1,6 +1,6 @@
 .education-background {
   background-image: image-url("BOOKS.jpg");
-  height: calc(200vh + 400px)
+  height: calc(200vh + 1000px)
 }
 .education-white-screen {
   background: rgba(250,250,255, 0.25);
@@ -87,3 +87,33 @@
     }
 }
 
+.library {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 70px;
+}
+
+.book_img {
+  width: 150px;
+  img{
+    max-width: 100px;
+    margin-bottom: 20px;
+    }
+}
+
+.book-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
