@@ -1,10 +1,36 @@
-<nav class="navbar">
+<nav class="new-navbar">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo"><a href="/">Morgan</a></label>
+  <ul class="new-navbar-nav">
+    <li class="new-navbar-item">
+      <a href="/education">Education</a>
+    </li>
+    <li class="new-navbar-item">
+      <a href="/work">Work</a>
+    </li>
+    <li class="new-navbar-item">
+      <a href="/photography">Photography</a>
+    </li>
+    <li class="new-navbar-item">
+      <a href="/adventures">Adventures</a>
+    </li>
+    <li class="new-navbar-item">
+      <a href="/web_projects">Web Projects</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- <nav class="navbar">
   <div class="navbar-item-bar">
-    <div class="logo">
-      <%= link_to image_tag("ML_LOGO.png", alt: "Logo Morgan Lizop"), "/" %>
-    </div>
     <div class="nav-item">
-      <a><%= link_to "Web projects", "/web_project" %></a>
+      <a><%= link_to "Education", "/education" %></a>
+    </div>
+    <div class="navbar-bar"></div>
+    <div class="nav-item">
+      <a><a><%= link_to "work", "/work" %></a></a>
     </div>
     <div class="navbar-bar">
     </div>
@@ -13,15 +39,11 @@
     </div>
     <div class="navbar-bar"></div>
     <div class="nav-item">
-      <a><%= link_to "Education", "/education" %></a>
-    </div>
-    <div class="navbar-bar"></div>
-    <div class="nav-item">
       <a><%= link_to "Adventures", "/adventures" %></a>
     </div>
     <div class="navbar-bar"></div>
     <div class="nav-item">
-      <a><a><%= link_to "work", "/work" %></a></a>
+      <a><%= link_to "Web projects", "/web_project" %></a>
     </div>
   </div>
-</nav>
+</nav> -->
