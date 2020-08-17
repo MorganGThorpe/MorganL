@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+
+.sky-color{
+  background-image: url("Background_Mountain.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y:top;
+  background-size:cover;
+  position: relative;
+  height:100%;
+  width:auto;
+}
+@media (max-width: 1440px){
+  .sky-color{
+  }
+}
+
+
+.home-background {
+  background: linear-gradient(180deg, rgba(9,9,121,1) 5%, rgba(22,127,251,1) 100%);
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+  top:80px;
+  overflow:hidden;
+  position:absolute;
+}
