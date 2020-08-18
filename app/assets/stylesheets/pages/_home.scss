@@ -1,4 +1,7 @@
 // Specific CSS for your home-page
+.home-page{
+  background:white;
+}
 
 .sky-color{
   background-image: asset-url('BackgroundMountain.png');
@@ -19,8 +22,9 @@
   height:100vh;
   top:80px;
   overflow:hidden;
-  position:absolute;
+  position:relative;
 }
+
 
 .container {
   height: 30vh;
@@ -48,4 +52,48 @@
     color: #167FFB;
     }
   }
+
+  .origin {
+  height: 100vh;
+  padding: 200px 30px 0px 30px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  h5 {
+    font-size:24px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .origin {
+    padding: 200px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .origin {
+    padding: 200px 100px 0px 100px;
+    font-size:18px;
+    h5{
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .origin {
+    padding: 200px 50px 0px 50px;
+    font-size:16px;
+    h5{
+      font-size: 20px;
+    }
+  }
+}
 

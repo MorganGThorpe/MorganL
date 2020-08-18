@@ -44,24 +44,7 @@ html {
   background-image: linear-gradient(rgba(0,0,0, 1.0), rgba(0,0,0,1.0));
   height: 200px;
 }
-.origin {
-  height: 80vh;
-  padding-top: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 30px;
-  h5 {
-    font-size:24px;
-    font-weight: 400;
-    font-family: 'Josefin Sans', sans-serif;
 
-  }
-}
 #go_to_roll {
   text-align: center;
   border: 1px solid black;
