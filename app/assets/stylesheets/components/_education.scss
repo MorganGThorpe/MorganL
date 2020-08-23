@@ -1,119 +1,70 @@
-.education-background {
-  background-image: image-url("BOOKS.jpg");
-  height: calc(200vh + 1000px)
+.education {
+  background: image-url("BOOKS.jpg");
+  background-size: cover;
+  top:400px;
 }
+
 .education-white-screen {
-  background: rgba(250,250,255, 0.25);
+  background: rgba(250,250,255, 0.8);
   height:100%;
+  padding-bottom: 2vh;
 }
-.content{
-  display: flex;
-  flex-direction: column;
-  height:auto;
-  max-width: 850px;
-  align-items: center;
+
+.top-fill{
+  height:5rem;
+}
+
+.education-category{
+  height:calc(100vh -5rem);
+  width: 80vw;
   margin: 50px auto;
-    h1 {
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 24px;
-    }
+  align-items:center;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 0px 10px 0px 50px;
+  background:white
 }
-.education-category {
-  max-width: 750px;
-  margin-bottom: 20px;
+
+.category-title {
+  margin-top:20px;
+  padding-top:40px;
+  padding-bottom: 15px;
+  padding-left: 50px;
 }
+
 .education-card {
-  max-width: 750px;
-  background: white;
-  margin: 20px 0px;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-    *{
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: 300;
-    }
-}
-
-.education-item {
-  background: white;
-  padding: 0px;
-  display: flex;
+  width:90%;
+  max-width:1000px;
   align-items: center;
-  margin-bottom: 30px;
-  box-shadow: 5px 5px 10px grey;
-  border-radius: 15px 15px 15px 15px
-}
-
-.education-logo {
-  background: white;
-  width: 200px;
-  border-radius: 15px 0px 0px 15px;
-  img {
-    width:100px;
-    height: auto;
-    margin: 25px 46px;
-    vertical-align: baseline;
-  }
-}
-
-.education-desc {
-  margin-left:10px;
-  margin-right: 40px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  background: white;
-  margin-bottom:auto;
-}
-
-.education-title {
-  background: white;
-  margin-top: 10px;
-    h2 {
-      font-size: 24px;
-    }
-}
-
-.education-content {
-  background: white;
-  font-size: 14px;
-  text-align: justify;
-  margin-bottom: 40px;
-    h3 {
-      font-size: 18px;
-      font-style: italic;
-    }
-}
-
-.library {
-  display: grid;
-  grid-column-gap: 50px;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 20px 70px;
-}
-
-.book_img {
-  width: 150px;
-  img{
-    max-width: 100px;
-    margin-bottom: 20px;
-    }
-}
-
-.book-text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
   text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+}
 
-  h2 {
-    font-size: 14px;
+.uni{
+  h2{
+    font-size:20px;
   }
-  h3 {
-    font-size: 12px;
+}
+
+.title{
+  h2{
+    font-size:20px;
   }
-  p {
-    font-size: 10px;
+}
+
+.logo{
+  img{
+    max-width:250px;
+    width: 50%;
   }
+  padding: 50px;
+}
+
+.description{
+  p{
+    font-size:14px;
+    text-align: justify;
+    text-justify: auto;
+  }
+  padding:  40px 2vw;
 }
