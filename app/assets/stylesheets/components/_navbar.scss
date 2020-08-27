@@ -7,7 +7,7 @@ a{
   transition: 0.5s;
 }
 
-label.logo{
+label.logo-nav{
   font-size: 30px;
   line-height:80px;
   padding: 0 50px 0 80px;
@@ -31,11 +31,19 @@ label a:hover, .active{
     display: none;
   }
 
+.logo-nav{
+  img{
+    max-width:250px;
+    max-height:200px;
+    width: 100%;
+
+  }
+}
 #check {
   display: none;
 }
 @media (max-width: 1024px){
-  label.logo{
+  label.logo-nav{
     font-size:30px;
     padding-left: 50px;
   }

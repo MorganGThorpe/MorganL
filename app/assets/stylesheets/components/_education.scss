@@ -17,10 +17,12 @@
 .education-category{
   height:calc(100vh -5rem);
   width: 80vw;
-  margin: 50px auto;
+  margin: 50px auto 150px auto;
   align-items:center;
-  box-shadow: 10px 10px 10px black;
-  border-radius: 0px 10px 0px 50px;
+  text-align:center;
+  box-shadow: 10px 10px 10px rgba(35,35,35,0.5);
+  border-radius: 0px 150px 0px 150px;
+  border: 1px solid rgba(100,100,100, 0.3);
   background:white;
   padding: 30px;
 }
@@ -28,23 +30,36 @@
 .category-title {
   margin-top:20px;
   padding-top:40px;
-  padding-bottom: 15px;
-  padding-left: 50px;
+  padding-bottom: 20px;
+  text-align:center;
+  *{
+    font-size:28px;
+  }
+}
+
+.training-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:16px;
+  padding:25px;
+  margin: 30px 30px 30px 30px;
 }
 
 .education-card {
   width:90%;
-  max-width:1000px;
+  max-width:400px;
+  height:100%;
   align-items: center;
   text-align: center;
   margin: auto;
   padding-bottom: 30px;
 }
 
-.uni{
+.university{
   h2{
     font-size:20px;
   }
+  height:100px;
 }
 
 .title{
@@ -56,9 +71,12 @@
 .logo{
   img{
     max-width:250px;
-    width: 50%;
+    max-height:200px;
+    width: 100%;
+
   }
-  padding: 50px;
+  margin: 100px 0px;
+  height: 200px;
 }
 
 .description{
@@ -70,6 +88,14 @@
   padding:  40px 2vw;
 }
 
+.diploma-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+  padding:25px;
+  margin: 30px 30px 30px 30px;
+}
+
 .book-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -77,6 +103,7 @@
   padding:25px;
   margin: 30px 30px 30px 30px;
 }
+
 
 .book-card{
  margin: 10px;
@@ -113,3 +140,76 @@
   justify:auto;
 }
 
+@media (max-width: 900px){
+  .book-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:16px;
+    padding:25px;
+    margin: auto;
+  }
+.diploma-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:16px;
+    padding:25px;
+    margin: auto;
+  }
+
+.training-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:16px;
+    padding:25px;
+    margin: auto;
+  }
+
+  .education-category{
+    height:calc(100vh -5rem);
+    width: 80vw;
+    margin: 25px auto 50px auto;
+    align-items:center;
+    text-align:center;
+    box-shadow: 10px 10px 10px rgba(35,35,35,0.5);
+    border-radius: 0px 50px 0px 50px;
+    border: 1px solid rgba(100,100,100, 0.3);
+    background:white;
+    padding: 15px;
+  }
+
+  .category-title{
+    padding-bottom:20px;
+
+    h1{
+      font-size:24px;
+    }
+  }
+  .university {
+    h2{
+      font-size: 20px;
+    }
+  }
+
+  .title{
+    *{
+      font-size:10px;
+    }
+  }
+
+  .logo{
+    img{
+      max-width:250px;
+      width: 100%;
+    }
+    padding: 5px;
+  }
+
+  .description{
+    p{
+      font-size:14px;
+      text-align: justify;
+      text-justify: auto;
+    }
+    padding:  40px 2vw;
+  }
+}
