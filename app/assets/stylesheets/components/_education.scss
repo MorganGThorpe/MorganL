@@ -34,6 +34,7 @@
   text-align:center;
   *{
     font-size:28px;
+    text-transform:uppercase;
   }
 }
 
@@ -58,13 +59,19 @@
 .university{
   h2{
     font-size:20px;
+    margin:auto;
+    vertical-align:middle;
+    line-height:1.5;
   }
   height:100px;
+
 }
 
 .title{
   h2{
     font-size:20px;
+    text-transform: uppercase;
+    line-height:1.5;
   }
 }
 
@@ -87,7 +94,7 @@
     text-align: justify;
     text-justify: auto;
   }
-  padding:  40px 2vw;
+  padding:  10px 2vw;
 }
 
 .diploma-grid{
@@ -150,21 +157,21 @@
     padding:25px;
     margin: auto;
   }
-.diploma-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap:16px;
-    padding:25px;
-    margin: auto;
-  }
+  .diploma-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap:16px;
+      padding:0px 25px 0px 25px;
+      margin: auto;
+    }
 
-.training-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap:16px;
-    padding:25px;
-    margin: auto;
-  }
+  .training-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap:16px;
+      padding:25px;
+      margin: auto;
+    }
 
   .education-category{
     height:calc(100vh -5rem);
@@ -180,38 +187,53 @@
   }
 
   .category-title{
-    padding-bottom:20px;
+
+    padding-bottom:30px;
 
     h1{
       font-size:24px;
-    }
-  }
-  .university {
-    h2{
-      font-size: 20px;
+      line-height:28px;
+      text-transform:uppercase;
     }
   }
 
+  .university {
+    display:flex;
+    h2{
+      font-size: 14px;
+      line-height:1.5;
+      font-weight: 300;
+      vertical-align:middle;
+    }
+    height:60px;
+    margin-bottom:15px;
+    vertical-align:middle;
+  }
+
   .title{
-    *{
-      font-size:10px;
+    h2{
+      font-size:14px;
+      text-transform: uppercase;
+      line-height:1.5;
+      margin-bottom:10px
     }
   }
 
   .logo{
     img{
-      max-width:250px;
-      width: 100%;
+      width: auto;
+      height: auto;
     }
-    padding: 5px;
+    height:150px;
+    line-height:150px;
   }
 
   .description{
     p{
-      font-size:14px;
+      font-size:12px;
       text-align: justify;
       text-justify: auto;
     }
-    padding:  40px 2vw;
+    padding:  2vh 2vw;
   }
 }
